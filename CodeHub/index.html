@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" ng-app="Application">
+<head>
+    <meta charset="utf-8" />
+    <title>Code Hub</title>
+    <link href="favicon.png" rel="shortcut icon" type="image/x-icon" />
+    <meta name="viewport" content="width=device-width" />
+
+    <!--Lib css-->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,700,300' rel='stylesheet' type='text/css' />
+    <link href="Lib/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="Lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+
+    <!--Custom css-->
+    <link href="Application/Directives/Header/Header.css" rel="stylesheet" />
+    <link href="Application/Views/Start/Start.css" rel="stylesheet" />
+    <link href="Application/Views/Portfolio/Portfolio.css" rel="stylesheet" />
+    <link href="Application/Application.css" rel="stylesheet" />
+
+</head>
+<body>
+    <!--eget direktiv-->
+    <header></header>
+
+    <!--container är en bootstrap-klass som gör att bredden sätts efter skärmbredd och att den centreras på sidan-->
+    <div class="container">
+        <!--Här lägger angular in innehåll beroende på vad som står i url:en. (se application.js)-->
+        <div ng-view></div>
+    </div>
+   
+
+    <!--Lib scripts-->
+    <script src="Lib/jquery/jquery.js"></script>
+    <script src="Lib/angular/angular.js"></script>
+    <script src="Lib/angular/angular-route.js"></script>
+    <script src="Lib/underscore/underscore.js"></script>
+    <script src="Lib/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="Lib/skrollr/skrollr.js"></script>
+
+
+    <!--Custom scripts-->
+    <script src="Application/Application.js"></script>
+    <script src="Application/Directives/Header/Header.js"></script>
+    <script src="Application/Views/Portfolio/PortfolioController.js"></script>
+
+</body>
+</html>

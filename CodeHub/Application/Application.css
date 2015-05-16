@@ -1,0 +1,19 @@
+﻿body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight:lighter;
+}
+
+.container {
+    margin-top:70px;
+    margin-bottom:70px;
+}
+
+img {
+    width:100%;
+    max-width:100%;
+    height:auto;
+}
+
+ul {
+    list-style:none;
+}

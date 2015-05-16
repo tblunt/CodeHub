@@ -1,0 +1,39 @@
+﻿<div class="portfolio">
+    <div class="view" id="nummer1">
+        <div class="container">
+            <div ng-include="'Application/Views/Portfolio/PartialViews/Start.html'"></div>
+        </div>
+    </div>
+    <div class="view" id="nummer2"
+         before-enter="opacity:0;"
+         after-enter="opacity:1;"
+         before-leave="opacity:1;"
+         after-leave="opacity:0;"
+         enter-duration="500"
+         leave-duration="500">
+        <h1>hej 2</h1>
+    </div>
+    <div class="view" id="nummer3"
+         before-enter="transform:translateX(100%);"
+         after-enter="transform:translateX(0%);"
+         before-leave="transform:translateX(0%);"
+         after-leave="transform:translateX(-100%);">
+        <h1>hej 3</h1>
+    </div>
+    <div class="view" id="nummer4"></div>
+</div>
+
+<div class="portfolio-menu">
+    <div class="menu-item" ng-click="goToView(0)" id="menu-nummer1">
+        <p>Nummer 1</p>
+    </div>
+    <div class="menu-item" ng-click="goToView(1)" id="menu-nummer2">
+        <p>Nummer 2</p>
+    </div>
+    <div class="menu-item" ng-click="goToView(2)" id="menu-nummer3">
+        <p>Nummer 3</p>
+    </div>
+    <div class="menu-item" ng-click="goToView(3)" id="menu-nummer4">
+        <p>Nummer 4</p>
+    </div>
+</div>

@@ -1,0 +1,33 @@
+﻿.portfolio .view {
+    background:#000;
+    height:1200px;
+    left:0;
+    right:0;
+    margin-top:70px;
+    position:fixed; 
+    color:#fff; 
+}
+
+.portfolio-menu {
+    position:fixed;
+    left:0;
+    top:50%;
+    transform:translateY(-50%);
+    -moz-transform:translateY(-50%);
+    -webkit-transform:translateY(-50%);
+    -o-transform:translateY(-50%);
+    -ms-transform:translateY(-50%);
+    width:100px;
+}
+
+.portfolio-menu .menu-item{
+    background:red;
+    padding:5px;
+    margin:5px 0;
+    display:inline-block;
+    
+}
+
+.portfolio-menu .menu-item p{
+   margin:0;
+}

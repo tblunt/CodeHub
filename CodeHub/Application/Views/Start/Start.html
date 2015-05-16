@@ -1,0 +1,44 @@
+﻿ <!--bootstrap-klass för en rad. OBS! måste ligga i en container-->
+<div class="row">
+    <!--bootstrap-klass för att ta upp hela bredden på alla skärmar-->
+    <div class="col-xs-12">
+        <h1>Start</h1>
+    </div>
+</div>
+
+<div class="row">
+    <!--bootstrap-klass för att ta upp hela bredden på mobil-skärmar men bara halva på andra skärmar-->
+    <div class="col-xs-12 col-sm-6">
+        <h2>Col-xs-12</h2>
+        <p>
+            Gridsystemet i bootstrap består av 12 stycken kolumner. Man kan specificera hur mycket av bredden ett avsnitt ska ta upp. Då anger man hur många av dessa 12 kolumner man vill använda.
+        </p>
+        <p>
+            xs betyder vilken skärmstorlek regeln ska gälla för. xs är den minsta skärmen, typ mobil och stående plattor. Sen finns det sm, md, lg också. Om man anger en regel för xs och sen struntar i de andra, kommer den regeln gälla för dom också.
+        </p>
+    </div>
+
+    <div class="col-xs-12 col-sm-6">
+        <h2>Col-sm-6</h2>
+        <p>På alla andra skärmar än mobil vill vi att avsnitten (div-arna) ska ta upp halva bredden...bilda två kolumner helt enkelt. 12/2 = 6 kolumner var. </p>
+        <p>Testa att dra i fönstret på webbläsaren. Gör du det smalare kommer du se när den här kolumnen hoppar till och tar upp hela fönstrets bredd på små skärmar.</p>
+    </div>
+</div>
+
+<div class="row image-row">
+    <div class="col-xs-12 col-sm-6">
+        <img src="favicon.png"/>
+    </div>
+
+    <div class="col-xs-12 col-sm-6">
+        <h2>Kolla in de här länkarna: </h2>
+        <ul>
+            <li>
+                <a href="http://getbootstrap.com/css">Bootstrap</a>
+            </li>
+            <li>
+                <a href="http://fortawesome.github.io/Font-Awesome/icons/">Fontawesomes ikoner</a>
+            </li>
+        </ul>
+    </div>
+</div>

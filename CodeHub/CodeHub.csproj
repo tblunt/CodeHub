@@ -60,18 +60,73 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Application\Application.css" />
+    <Content Include="Application\Application.js" />
+    <Content Include="Application\Directives\Header\Header.css" />
+    <Content Include="Application\Directives\Header\Header.html" />
+    <Content Include="Application\Directives\Header\Header.js" />
+    <Content Include="Application\Views\Contact\Contact.html" />
+    <Content Include="Application\Views\Portfolio\PartialViews\Start.html" />
+    <Content Include="Application\Views\Portfolio\Portfolio.css" />
+    <Content Include="Application\Views\Portfolio\Portfolio.html" />
+    <Content Include="Application\Views\Portfolio\PortfolioController.js" />
+    <Content Include="Application\Views\Start\Start.css" />
+    <Content Include="Application\Views\Start\Start.html" />
+    <Content Include="favicon.png" />
+    <Content Include="index.html" />
+    <Content Include="Lib\angular\angular-route.js" />
+    <Content Include="Lib\angular\angular-route.min.js" />
+    <Content Include="Lib\angular\angular.js" />
+    <Content Include="Lib\angular\angular.min.js" />
+    <Content Include="Lib\bootstrap\dist\css\bootstrap-theme.css" />
+    <Content Include="Lib\bootstrap\dist\css\bootstrap-theme.min.css" />
+    <Content Include="Lib\bootstrap\dist\css\bootstrap.css" />
+    <Content Include="Lib\bootstrap\dist\css\bootstrap.min.css" />
+    <Content Include="Lib\bootstrap\dist\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Lib\bootstrap\dist\js\bootstrap.js" />
+    <Content Include="Lib\bootstrap\dist\js\bootstrap.min.js" />
+    <Content Include="Lib\bootstrap\dist\js\npm.js" />
+    <Content Include="Lib\font-awesome\css\font-awesome.css" />
+    <Content Include="Lib\font-awesome\css\font-awesome.min.css" />
+    <Content Include="Lib\font-awesome\fonts\fontawesome-webfont.svg" />
+    <Content Include="Lib\jquery\jquery.js" />
+    <Content Include="Lib\jquery\jquery.min.js" />
+    <Content Include="Lib\skrollr\skrollr.js" />
+    <Content Include="Lib\skrollr\skrollr.menu.js" />
+    <Content Include="Lib\underscore\underscore-min.js" />
+    <Content Include="Lib\underscore\underscore.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Lib\font-awesome\css\font-awesome.css.map" />
+    <Content Include="Lib\font-awesome\fonts\fontawesome-webfont.eot" />
+    <Content Include="Lib\font-awesome\fonts\fontawesome-webfont.ttf" />
+    <Content Include="Lib\font-awesome\fonts\fontawesome-webfont.woff" />
+    <Content Include="Lib\font-awesome\fonts\fontawesome-webfont.woff2" />
+    <Content Include="Lib\font-awesome\fonts\FontAwesome.otf" />
+    <Content Include="Lib\bootstrap\dist\css\bootstrap-theme.css.map" />
+    <Content Include="Lib\bootstrap\dist\css\bootstrap.css.map" />
+    <Content Include="Lib\bootstrap\dist\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Lib\bootstrap\dist\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="Lib\bootstrap\dist\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="Lib\bootstrap\dist\fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="Lib\angular\angular.min.js.map" />
+    <Content Include="Lib\angular\angular-route.min.js.map" />
+    <Content Include="Lib\underscore\underscore-min.map" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
     <None Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Application\Services\" />
+    <Folder Include="Content\Data\" />
+    <Folder Include="Content\Images\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

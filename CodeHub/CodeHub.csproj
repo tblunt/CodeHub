@@ -116,6 +116,7 @@
     <Content Include="Lib\angular\angular.min.js.map" />
     <Content Include="Lib\angular\angular-route.min.js.map" />
     <Content Include="Lib\underscore\underscore-min.map" />
+    <Content Include="Content\Presentation.pdf" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

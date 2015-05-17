@@ -11,16 +11,24 @@
          after-leave="opacity:0;"
          enter-duration="500"
          leave-duration="500">
-        <h1>hej 2</h1>
+        <div class="container">
+            <course-list></course-list>
+        </div>
     </div>
     <div class="view" id="nummer3"
          before-enter="transform:translateX(100%);"
          after-enter="transform:translateX(0%);"
          before-leave="transform:translateX(0%);"
          after-leave="transform:translateX(-100%);">
-        <h1>hej 3</h1>
+        <div class="container">
+            <div ng-include="'Application/Views/Portfolio/PartialViews/Start.html'"></div>
+        </div>
     </div>
-    <div class="view" id="nummer4"></div>
+    <div class="view" id="nummer4">
+        <div class="container">
+            <div ng-include="'Application/Views/Portfolio/PartialViews/Start.html'"></div>
+        </div>
+    </div>
 </div>
 
 <div class="portfolio-menu">

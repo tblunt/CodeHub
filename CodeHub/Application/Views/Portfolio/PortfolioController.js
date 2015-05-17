@@ -6,17 +6,22 @@
 
     ////binder på controllern på modulen
     application.controller('PortfolioController', ['$scope', '$timeout', function ($scope, $timeout) {
-        console.log("PortfolioController");
+        
         //privata variabler
         var views = [];
         var keyframes = [0];
         var pauseAtBeginning = 500;
 
-        //Publika variabler, $scope-variabler (går att använda i html-koden)
-        
+        //När man lämnar denna vy
+        $scope.$on('$destroy', function () { $("body").css({"height": "auto"}); });
 
-        /* startar */
-        initPortfolio();
+        //start
+        $timeout(function () {
+            $timeout(function () {
+                initPortfolio();
+            }, 0);
+        }, 0);
+       
 
         /*********** privata funktioner ***********/
         function initPortfolio() {
@@ -78,6 +83,7 @@
                 $(view).attr("data-" + (keyframes[index] + pauseAtBeginning), afterEnterCssClass + "top:0px;");
 
                 //animate out
+                //om vyn är större än fönsterhöjden så ska  man kunna skrolla i den
                 if ($(view).height() > windowHeight) {
                     $(view).attr("data-" + (keyframes[(index + 1)] - leaveDuration), beforeLeaveCssClass + "top:" + (-($(view).height())) + "px;");
                 }

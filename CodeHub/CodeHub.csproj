@@ -62,6 +62,9 @@
   <ItemGroup>
     <Content Include="Application\Application.css" />
     <Content Include="Application\Application.js" />
+    <Content Include="Application\Directives\CourseList\CourseList.css" />
+    <Content Include="Application\Directives\CourseList\CourseList.html" />
+    <Content Include="Application\Directives\CourseList\CourseList.js" />
     <Content Include="Application\Directives\Header\Header.css" />
     <Content Include="Application\Directives\Header\Header.html" />
     <Content Include="Application\Directives\Header\Header.js" />
